@@ -35,4 +35,5 @@ public class Filter_and_SearchPage {
 
     @FindBy(xpath = "//span[@class='ui-btn ui-btn-light-border main-ui-filter-field-button main-ui-filter-reset']")
     public WebElement resetBtn;
+
 }
