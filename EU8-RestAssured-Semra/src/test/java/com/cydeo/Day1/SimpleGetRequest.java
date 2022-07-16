@@ -15,10 +15,8 @@ public class SimpleGetRequest {
         Response response = RestAssured.get(url);
         System.out.println(response.statusCode());
 
-          response.prettyPrint();
+          response.prettyPrint();//print response body
 
     }
-
-
 
 }
