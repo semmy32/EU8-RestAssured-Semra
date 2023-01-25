@@ -3,7 +3,6 @@ package com.cydeo.Day2;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -13,9 +12,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 public class HrGetRequests {
-    @BeforeAll
+    @BeforeAll //this annotation is same "@BeforeClass" in TestNg, we use with static method name
     public static void init(){
-        RestAssured.baseURI="http://44.202.144.172:1000/ords/hr";
+        RestAssured.baseURI="http://18.204.207.237:1000/ords/hr";
     }
 
     @DisplayName("GET request to regions")

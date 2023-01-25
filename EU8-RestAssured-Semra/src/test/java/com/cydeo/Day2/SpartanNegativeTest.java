@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SpartanNegativeTest {
     @BeforeAll
     public static void init(){
-        RestAssured.baseURI="http://44.202.144.172:8000";
+        RestAssured.baseURI="http://18.204.207.237:8000";
     }
 
     @DisplayName("GET request to /api/spartans/10")
